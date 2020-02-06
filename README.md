@@ -1,3 +1,3 @@
-# [Ryan Murdock's Portfolio](rynmurdock.github.io)
+# Ryan Murdock's Portfolio
 
 ### Created with Jeremy P. Howard's template.
