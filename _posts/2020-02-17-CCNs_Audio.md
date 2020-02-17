@@ -26,7 +26,7 @@ learned "filters" over an image, 1-dimensional filters were used instead. Can yo
 
 Here's the hint: consider an early means of communication in the 1800s. 
 
-And here's [the audio](images/outputone.mp3).
+And here's [the audio](https://github.com/rynmurdock/rynmurdock.github.io/blob/master/images/outputone.mp3).
 
 I honestly did not expect this. But it makes sense: drowning in noise, of course you're going to use what you best can to rise 
 against it. Similar to the white/black extremes in images, extreme blips and dips are easier to "hear." It is interesting that
