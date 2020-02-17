@@ -6,7 +6,9 @@ have only one dimension?
 Although audio is one of many examples of this, and the sound presented here is arguably 
 sonification of information that isn't specific to hearing, it only makes sense to treat it this way. These networks are
 communicating and the most convenient way to understand this process is through the primary way that we communicate similar
-signals. I will say that it would be amazing to somehow constrain the format in how these signals are being "heard" and created
+signals. 
+
+I will say that it would be amazing to somehow constrain the format in how these signals are being "heard" and created
 in a way similar to humans, somehow requiring them to be limited to tongues and cochlea. Such constraints would likely lead to
 even more interesting results, but how that would be accomplished is beyond me for now. (Maybe some kind of fourier trick?
 I remember something like most information is conveyed in the 2nd formant through vowels when humans speak.)
