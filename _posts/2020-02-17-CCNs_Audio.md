@@ -1,6 +1,6 @@
 # CCNs and Audio
 
-We've applied CCNs [as explained here](https://rynmurdock.github.io/2020/02/05/CCN.html) to images - but what about signals that
+We've applied CCNs [as explained here](https://rynmurdock.github.io/2020/02/05/CCN.html) to images --- but what about signals that
 have only one dimension? 
 
 Although audio is one of many examples of this, and the sound presented here is arguably 
