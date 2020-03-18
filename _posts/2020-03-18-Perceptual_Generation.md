@@ -22,7 +22,7 @@ At first this wasn't very successful. But throw a to_gram_matrix() function arou
 each difference and you're comparing non-localized
 style. This works great if you're just trying to get the general feel of something, say a tree (see above), 
 but it doesn't work so well
-when you want faces instead of eerily skin-and-eyeball-like textures (see my Twitter! [https://twitter.com/advadnoun]).
+when you want faces instead of eerily skin-and-eyeball-like textures (see my Twitter! [@advadnoun](https://twitter.com/advadnoun)).
 
 I thought that I'd be able to balance low- and high-level features in such a way that I could use just one loss function.
 
@@ -40,7 +40,7 @@ the next synthetic image. If the real image has been used, I always skip it.
 After going through each successive synthetic image, if I haven't found a batch of image-difference means,
 I start to add random ones.
 
-*Inspiration in part from the Top-K GAN paper [https://arxiv.org/abs/2002.06224].
+*Inspiration in part from the Top-K GAN paper [here](https://arxiv.org/abs/2002.06224).
 
 
 So what does this even mean? I am incentivising the generator to be similar to a particular photo in the double-stuffed dataset...
@@ -65,7 +65,7 @@ pretty similar to StyleGAN's generator, I've gotten things stable. This is my fi
 viewing the source in this Colab notebook, which I've used to trained on 80 images from CelebA! It's totally undocumented
 and probably very bad in some ways. I'll correct the documentation issue tonight, to some extent.
 
-[https://colab.research.google.com/drive/1I8qkEsfWz3NaFDt_RkEup3otpfGEYvYa]
+[Colab Notebook](https://colab.research.google.com/drive/1I8qkEsfWz3NaFDt_RkEup3otpfGEYvYa)
 
 The technique is, I think, appealing in its speed and ability to work with small data. But it isn't perfect, as shown above!
 Given more time, data*, or whatever else, it may be improvable. If you'd like to contribute, I'd love to hear from you.
