@@ -40,7 +40,7 @@ The reason: Perceptual Loss is not blurry, and it picks up on higher-level featu
 
 ## Tiling Collages
 
-This work uses SimCLR to construct a Perceptual Loss Function that matches patches from some dataset (or datumset, if you'd rather 
+This work uses SimCLR to construct a Perceptual Loss function that matches patches from some dataset (or datumset, if you'd rather 
 use only a single image) to tiles of some target image, producing a new image. 
 This allows us to retain a gestalt of the target image with tiles that contain
 semantically related content, but with details that can drastically deviate from the target image.
