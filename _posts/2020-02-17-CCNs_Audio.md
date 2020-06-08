@@ -1,5 +1,11 @@
 # CCNs and Audio
 
+>After reading about [Dimensions of Dialogue](https://www.joelsimon.net/dimensions-of-dialogue.html) (the seminal work on CCNs)
+and [GlyphNet](https://github.com/noahtren/GlyphNet), 
+>I decided to investigate the idea of two artificial neural networks (NNs) communicating over a noisy channel.
+>The idea is to have an arbitrary number of classes that serve as content to be communicated effectively between an observer and speaker,
+all with the chance of some of the information in the communication to be lost.
+
 We've applied CCNs [as explained here](https://rynmurdock.github.io/2020/02/05/CCN.html) to images --- but what about signals that
 have only one dimension? 
 
