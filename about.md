@@ -1,3 +1,3 @@
 # About
 
-Hello! I don't have much to say about myself. *blushes*
+Hello! I don't have much to say about myself!
