@@ -1,8 +1,6 @@
 # Index-Differentiable Image Rolling
 
-![A Kardashian](/images/256er.png)
-![Kardashian flowery collages](/images/flowery_K.png)
-![Kardashian flowery collages](/images/flowery_K1.png)
+![A Kardashian](/images/256er.png) ![Kardashian flowery collages](/images/flowery_K.png) ![Kardashian flowery collages](/images/flowery_K1.png)
 
 
 Over the past several weeks, I've been experimenting with image collaging using Artificial Neural Networks (ANNs). 
@@ -25,9 +23,7 @@ they seem to
 do a better job at image memorization than previous CPPN variants. In particular, I utilized 
 [this PyTorch repo's](https://github.com/dalmia/siren) implementation by Aman Dalmia.
 
-![A Kardashian](/images/256er.png)
-![Kardashian city collages](/images/city_K.png)
-![Kardashian city collages](/images/city_K1.png)
+![A Kardashian](/images/256er.png) ![Kardashian city collages](/images/city_K.png) ![Kardashian city collages](/images/city_K1.png)
 
 ## Input Constraints & Learned Rolling
 
@@ -59,8 +55,7 @@ be possible to define a piecewise function and its gradients or even just find a
 
 ## Tying it Together
 
-![Unrolled](/images/rolly.png)
-![Rolled image](/images/roller.png)
+![Unrolled](/images/rolly.png) ![Rolled image](/images/roller.png)
 
 Putting the SIREN network and this particular sawtooth function together, we can simply create two tensors of linearly-spaced numbers from zero to one
 that represent x & y coordinates, then add some learned parameters to these two vectors, shifting and rolling them with the function. 
