@@ -128,5 +128,12 @@ what I've found.
 1. [LM-Scorer's GitHub](https://github.com/simonepri/lm-scorer)
 
 
+## Update
 
+Nothing seems to increase the likelihood of me wanting to do another write-up than finishing a write-up! I've found an arguably better prompt than the originals used here.
+An example of it would be: "The uncle of the general who sacrificed himself for the cause was the subject of a biography.
+Who sacrificed himself for the cause? The"; it seems to work well and is consistent with my previous findings, showing a massive NP1-attachment preference. However,
+I seem to have been completely wrong about scale, as I'm finding that the small version of GPT-2 is much more likely to choose NP2-attachments (at least with this method).
+So in addition to the future directions stated above, it looks like I'll have to try larger models as well. I've also realized that comparing Spanish- or Dutch-trained models 
+could be interesting, as those languages generally have a fair NP1-bias. There could be some very interesting results from multi-lingual models as well. There is much to do!
 
