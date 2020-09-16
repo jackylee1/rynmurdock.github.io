@@ -128,7 +128,7 @@ what I've found.
 1. [LM-Scorer's GitHub](https://github.com/simonepri/lm-scorer)
 
 
-## Update
+## Update: Future Directions and Different Prompts
 
 Nothing seems to increase the likelihood of me wanting to do another write-up than finishing a write-up! I've found an arguably better prompt than the originals used here.
 An example of it would be: "The uncle of the general who sacrificed himself for the cause was the subject of a biography.
@@ -136,4 +136,20 @@ Who sacrificed himself for the cause? The"; it seems to work well and is consist
 I seem to have been completely wrong about scale, as I'm finding that the small version of GPT-2 is much more likely to choose NP2-attachments (at least with this method).
 So in addition to the future directions stated above, it looks like I'll have to try larger models as well. I've also realized that comparing Spanish- or Dutch-trained models 
 could be interesting, as those languages generally have a fair NP1-bias. There could be some very interesting results from multi-lingual models as well. There is much to do!
+
+## Update: Online Attachment Bias is Very Different! (Probably)
+
+I've confirmed over and over again that when asked questions about a sentence in the form of multiple choice, True/False, etc., GPT-2 chooses high attachment, the opposite of average humans; however, my brilliant advisor pointed out that I could let GTP-2 resolve the ambiguity of these relative clause 
+sentences by having it indicate the gender of the noun the clause applies to. This is commonly referred to as "online" completion, in contrast to the "offline" questions I've been focusing on previously. 
+
+For example, we compare the probabilities of GPT-2 outputting "himself" or "herself" given this sentence: 
+
+> The brother of the princess who injured
+
+and this allows us to infer a decision in which either the brother or the princess injured themself. It turns out that GPT-2's online attachment "preference" is the complete opposite of its offline behavior, showing a serious bias towards low attachment. There is a small caveat: for the online assessment, I've yet to use a corpus with a human baseline. It could be that the items are strange in some way, but I will likely be able to collect a corpus where
+I can directly compare to see if the bias is higher than in English speakers. I've also found that there is quite a bit of possibility for pushing and pulling this behavior 
+around by slightly altering the length, the nouns, and other features of the sentence, so, again, I'll have to find a baseline for comparison.
+
+Whatever the case, this is a good example of how important the materials/prompts you use are, especially if you're using them with language models such as GPT-2.
+
 
