@@ -146,7 +146,7 @@ For example, we compare the probabilities of GPT-2 outputting "himself" or "hers
 
 > The brother of the princess who injured
 
-and this allows us to infer a decision in which either the brother or the princess injured themself. It turns out that GPT-2's online attachment "preference" is the complete opposite of its offline behavior, showing a serious bias towards low attachment. There is a small caveat: for the online assessment, I've yet to use a corpus with a human baseline. It could be that the items are strange in some way, but I will likely be able to collect a corpus where
+and this allows us to infer a decision in which either the brother or the princess injured themself. It turns out that GPT-2's online attachment "preference" is the complete opposite of its offline behavior, showing a serious bias towards low attachment. There is a caveat, though: for the online assessment, I've yet to use a corpus with a human baseline -- unlike in my offline comparisons. It could be that the items are strange in some way, but I will likely be able to collect a corpus where
 I can directly compare to see if the bias is higher than in English speakers. I've also found that there is quite a bit of possibility for pushing and pulling this behavior 
 around by slightly altering the length, the nouns, and other features of the sentence, so, again, I'll have to find a baseline for comparison.
 
