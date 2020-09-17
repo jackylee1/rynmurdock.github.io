@@ -137,19 +137,21 @@ I seem to have been completely wrong about scale, as I'm finding that the small 
 So in addition to the future directions stated above, it looks like I'll have to try larger models as well. I've also realized that comparing Spanish- or Dutch-trained models 
 could be interesting, as those languages generally have a fair NP1-bias. There could be some very interesting results from multi-lingual models as well. There is much to do!
 
-## Update: Online Attachment Bias is Very Different! (Probably)
+## Update: Attachment Bias is Very Different When Disambiguating Directly! (Probably)
 
 I've confirmed over and over again that when asked questions about a sentence in the form of multiple choice, True/False, etc., GPT-2 chooses high attachment, the opposite of average humans; however, my brilliant advisor pointed out that I could let GTP-2 resolve the ambiguity of these relative clause 
-sentences by having it indicate the gender of the noun the clause applies to. This is commonly referred to as "online" completion, in contrast to the "offline" questions I've been focusing on previously. 
+sentences by having it indicate the gender of the noun the clause applies to. This sentence-completion is an appealing way to assess GPT-2's "preference" when producing
+sentences.
 
 For example, we compare the probabilities of GPT-2 outputting "himself" or "herself" given this sentence: 
 
 > The brother of the princess who injured
 
-and this allows us to infer a decision in which either the brother or the princess injured themself. It turns out that GPT-2's online attachment "preference" is the complete opposite of its offline behavior, showing a serious bias towards low attachment. There is a caveat, though: for the online assessment, I've yet to use a corpus with a human baseline -- unlike in my offline comparisons. It could be that the items are strange in some way, but I will likely be able to collect a corpus where
+and this allows us to infer a decision in which either the brother or the princess injured themself. It turns out that GPT-2's attachment "preference" measured here is the complete opposite of its offline behavior, showing a serious bias towards low attachment. There is a caveat, though: for the more "online" assessment, I've yet to use a corpus with a human baseline -- unlike in my more "offline" comparisons. It could be that the items are strange in some way, but I'm hoping to be able to collect a corpus where
 I can directly compare to see if the bias is higher than in English speakers. I've also found that there is quite a bit of possibility for pushing and pulling this behavior 
-around by slightly altering the length, the nouns, and other features of the sentence, so, again, I'll have to find a baseline for comparison.
+around by slightly altering the length, the nouns, and other features of the sentence, so, again, I'll have to find a baseline for comparison. This could also be a good
+opportunity to try manipulations to see how GPT-2 responds compared to humans with this prompt: for instance, I could see if evern longer dependencies show any shift in bias.
 
-Whatever the case, this is a good example of how important the materials/prompts you use are, especially if you're using them with language models such as GPT-2.
+Whatever the case, this is a good example of how important the materials/prompts you use are, especially if you're working with language models such as GPT-2.
 
 
