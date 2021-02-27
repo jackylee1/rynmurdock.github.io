@@ -4,16 +4,16 @@
 ![A painting of a building (possibly in my area?)](/images/EujAWlfUUAI_PuA.png)
 
 For the last month or so, I've been working on text-to-image using pretrained models. The repeating theme of this work is using different networks to generate 
-images from a given description by matching their agreement using a neural netowrk called CLIP. 
+images from a given description by matching the images' and description's agreement using a neural netowrk called CLIP. 
 
 For those who don't know, CLIP is a model that was originally intended for doing things like
-searching for the best match to a description like "a dog playing the violin violin" among a number of images. By pairing a network that can produce images (a "generator" of some sort)
+searching for the best match to a description like "a dog playing the violin" among a number of images. By pairing a network that can produce images (a "generator" of some sort)
 with CLIP,
 it is possible to tweak the generator's input to try to match a description.
 
 The first iteration of this idea used a SIREN network as the generator, and was called "DeepDaze" in part because the images have a fever-dream, hazy quality.
 
-The next used BigGAN and was called BigSleep as an allusion to DeepDream and the surrealist film noir, The Big Sleep. The second reference is due to its strange, dreamlike quality.
+The next used BigGAN and was called BigSleep as an allusion to DeepDream and the surrealist film noir, *The Big Sleep*. The second reference is due to its strange, dreamlike quality.
 
 Finally, Aleph2Image uses the VQ-VAE discrete decoder from DALL-E. It's named as such to reference The Aleph, a short story by Borges about 
 an object that can let you see all of the world all at once. In addition, it includes a quote on surprise from the short story:
@@ -27,27 +27,24 @@ but also to point towards
 the general idea of surprise and what makes this kind of experience interesting. There are classic ideas from the likes of Turing and Lovelace about what makes
 humans special. Particularly Lovelace zeroed in on ideas surrounding original creation and surprise. 
 
-One of the first times I've felt truly surprised by a system was
+One of the first times I've felt truly surprised by a system in quite awhile was
 upon typing `a horse with four eyes` and seeing it interpret the prompt as a horse having glasses. Not only were the capabilities interesting, but seeing the system
-riff on and misinterpret the prompt blew me away! But the fact that I had no intent of creating this humorous image raises questions!
+riff on and misinterpret the prompt just blew me away! But the fact that I had no intent of creating this humorous image raises questions.
 
 ![a horse with four eyes from BigSleep](/images/horsefoureyes.png)
 
 
 ## Authorship
 
-I have no idea if I can really say that I've "made" any of these images. I certianly don't own any of the images others make with this system. 
-
-Honestly, the idea of ownership breaks down when you start approaching things like this. Does the "AI" own its output? Of course not: not only is this intuitively wrong,
-it also has negative affects on society by allowing individuals and groups to do harm and then attempt to shift accountability to anthropromorphised systems.
-I think and hope the likely outcome of late capitalism and these technologies is that we learn to ease away from ownership of most things. 
+I have no idea if I can really say that I've "made" any of these images. I would still argue that the user owns the output, but it's difficult to say that they
+originated it when the system can so radically control the process.
 
 
 ![an Aleph2Image moonlit scape](/images/EvNZmvtUcAEqvh2.png)
 
 ## To conclude
 
-If you'd like to create a surprising image from a description that you may or may not own (by the way, don't get me started on copyright law, please), 
+If you'd like to "create" a surprising image from a description 
 feel free to use these notebooks! 
 
 https://colab.research.google.com/drive/1oA1fZP7N1uPBxwbGIvOEXbTsq2ORa9vb?usp=sharing
