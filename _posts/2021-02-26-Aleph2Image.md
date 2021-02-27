@@ -28,7 +28,7 @@ the general idea of surprise and what makes this kind of experience interesting.
 humans special. Particularly Lovelace zeroed in on ideas surrounding original creation and surprise. 
 
 One of the first times I've felt truly surprised by a system was
-upon typing `a horse with two eyes` and seeing it interpret the prompt as a horse having glasses. Not only were the capabilities interesting, but seeing the system
+upon typing `a horse with four eyes` and seeing it interpret the prompt as a horse having glasses. Not only were the capabilities interesting, but seeing the system
 riff on and misinterpret the prompt blew me away! But the fact that I had no intent of creating this humorous image raises questions!
 
 ![a horse with four eyes from BigSleep](/images/horsefoureyes.png)
